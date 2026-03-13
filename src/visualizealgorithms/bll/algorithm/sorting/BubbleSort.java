@@ -10,7 +10,7 @@ public class BubbleSort extends GenericAlgorithm {
     }
 
     @Override
-    public void doWork() {
+    public int doWork() {
 
         int[] b = (int[]) super.getData();
 
@@ -25,5 +25,6 @@ public class BubbleSort extends GenericAlgorithm {
                 }
             }
         }
+        return 0;
     }
 }

@@ -49,9 +49,11 @@ public class BruteSort extends GenericAlgorithm {
 
     /**
      * The actual algorithm implementation
+     *
+     * @return
      */
     @Override
-    public void doWork() {
+    public int doWork() {
         Comparable[] arr = (Comparable[]) super.getData();
 
         Random r = new Random();
@@ -65,6 +67,7 @@ public class BruteSort extends GenericAlgorithm {
             arr[i1]=arr[i2];
             arr[i2]=temp;
         }
+        return 0;
     }
 
 

@@ -10,7 +10,7 @@ public class SelectionSort extends GenericAlgorithm {
     }
 
     @Override
-    public void doWork() {
+    public int doWork() {
 
         int[] b = (int[]) super.getData();
 
@@ -26,6 +26,7 @@ public class SelectionSort extends GenericAlgorithm {
             b[i] = b[minIndex];
             b[minIndex] = tmp;
         }
+        return 0;
     }
 }
 

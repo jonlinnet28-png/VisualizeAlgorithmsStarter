@@ -9,8 +9,10 @@ public interface IAlgorithm {
     
     /**
      * The implementation of the algorithm
+     *
+     * @return
      */
-    public void doWork();
+    public int doWork();
 
     /**
      * Get algorithm related data (unsorted array etc.)

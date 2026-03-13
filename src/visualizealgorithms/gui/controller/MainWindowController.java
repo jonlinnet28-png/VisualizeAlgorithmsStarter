@@ -163,7 +163,7 @@ public class MainWindowController implements Initializable {
                         case SEARCHING:
                             break;
                         case MISC:
-                            //data = new Integer[]{inputRanges.get(i)};
+                            data = new int[]{dp.getInput()};
                             break;
                     }
 

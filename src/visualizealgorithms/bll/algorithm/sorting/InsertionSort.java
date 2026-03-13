@@ -9,7 +9,7 @@ public class InsertionSort extends GenericAlgorithm{
     }
 
     @Override
-    public void doWork() {
+    public int doWork() {
 
         int[]b = (int[]) super.getData();
 
@@ -25,5 +25,6 @@ public class InsertionSort extends GenericAlgorithm{
             b[holeIndex] = tmp;
         }
 
+        return 0;
     }
 }
